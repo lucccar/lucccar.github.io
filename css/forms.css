@@ -1,0 +1,107 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: 'Average', Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-image: url("../img/galaxy.jpg");
+}
+.wrapper {
+	width: 70%;
+	margin: 4% auto 0 auto;
+	padding: 1em 1em 2em 3em;
+	display: flex;
+	flex-flow: row nowrap;
+	background-color: #eebb30;
+}
+p, [for="abtype"], [for="comments"] {
+	margin-bottom: 0;
+	margin-top: 2rem;
+}
+section {
+	flex-basis: 57%;
+	margin-right: 10%;
+}
+aside {
+	flex-basis: 33%;
+}
+
+fieldset {
+	border: 2px ridge grey;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+legend {
+	font-weight: bold;
+	font-size: 1.3rem;
+}
+form{
+	padding-top: 1.5%;	
+}
+
+label {
+	display: block;
+
+}
+
+select {
+	font-size: 1rem;
+}
+textarea {
+	height: 10rem;
+	padding: 2rem;
+}
+button {
+	font-size: 1rem;
+	margin: 1.3rem 0 1.3rem 0.9rem;
+	background-color: rgb(108, 108, 255);
+	border-radius: 0.8rem;
+	border: 2px solid rgb(43, 255, 0);
+	color: white;
+	padding: 0.4rem 0.7rem;
+}
+button:hover {
+	background-color: #856767;
+	color: teal;
+	border: 2px dotted rgb(38, 0, 255);
+	cursor:pointer;
+}
+input:not([type="radio"]):not([type="checkbox"]), textarea, select {
+	display: block;
+	margin-bottom: 1rem;
+	width: 20rem;
+	font-family: 'Average', Arial, Helvetica, sans-serif;
+	font-size: 1rem;
+	padding: 0 1rem;
+	border-radius: 10px;
+	border: 1px solid black;
+}
+
+input[type="radio"]  {
+	width: 1.4em;
+    height: 1.4em;
+	border: none;
+	border-radius: 0%;
+	background-color: #f4f4f4;
+	position: relative;
+	/* top: -0.2em; */
+	margin-right: 0.3em; 
+	vertical-align: top;
+	cursor: pointer;
+	text-align: center;
+	/* transition: all 1s ease; */
+	
+}
+address {
+	padding-bottom: 1rem;
+}
+
+
+
+
+
